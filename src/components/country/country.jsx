@@ -1,6 +1,6 @@
 import "./Country.css"
-const Country = ({country}) => {
-const {name, flags} = country
+const Country = ({ country }) => {
+    const { name, flags } = country
     return (
         <div className='country'>
             <h3>name: {name?.common}</h3>
